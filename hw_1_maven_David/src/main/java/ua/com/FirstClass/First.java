@@ -2,7 +2,7 @@ package ua.com.FirstClass;
 
 public class First {
 
-    public void Hello(){
+    public void Hello() {
         System.out.println("Hello");
     }
 }
