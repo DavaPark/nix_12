@@ -11,16 +11,14 @@ public class Second {
     private final static ArrayList<String> START_BRACKETS = new ArrayList<>(Arrays.asList("[", "{", "("));
     private final static ArrayList<String> END_BRACKETS = new ArrayList<>(Arrays.asList("]", "}", ")"));
 
-    public static void stroka(BufferedReader reader) throws IOException{
+    public static void stroka(BufferedReader reader) throws IOException {
         System.out.println("Введите строку");
         String stroka = reader.readLine();
         System.out.println(isMatch("stroka = " + stroka));
-
     }
 
     public static boolean isMatch(String value) {
         var list = new ArrayList<>(Arrays.asList(value.split("")));
-
         return validate(list);
     }
 

@@ -7,11 +7,9 @@ import ua.com.FirstClass.First;
 import ua.com.SecondClass.Second;
 import ua.com.ThirdClass.Third;
 
-
 public class Main {
 
     public static void main(String[] args) {
-
         System.out.println("Hello teacher, it is my first homework");
         System.out.println("Please enter");
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
@@ -42,6 +40,4 @@ public class Main {
             case "0" -> System.exit(0);
         }
     }
-
-
 }

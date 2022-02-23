@@ -5,7 +5,6 @@ import java.io.BufferedReader;
 
 import static java.lang.Math.*;
 
-
 public class First {
 
     public static void FirstLevel(BufferedReader reader) throws IOException {
@@ -29,12 +28,10 @@ public class First {
                 }
             }
             if (flag) count++;
-
         }
         System.out.println("\nУНИКАЛЬНЫХ ЧИСЕЛ " + count);
 
         System.out.println("-------------------------------------------------------------------------------------------------------------------");
-
     }
 
     public static void SecondLevel(BufferedReader reader) throws IOException {
@@ -75,7 +72,6 @@ public class First {
                 default -> System.out.println("Вы нажали не то что надо");
             }
         }
-
     }
 
     public static void ThirdLevel(BufferedReader reader) throws IOException {

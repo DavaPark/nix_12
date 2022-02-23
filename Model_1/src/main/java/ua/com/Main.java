@@ -2,6 +2,7 @@ package ua.com;
 
 import ua.com.SecondTask.Second;
 import ua.com.FirstTask.First;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -22,7 +23,6 @@ public class Main {
         }
     }
 
-
     private static void navigation() {
         System.out.println("Что бы выбрать 1-уровень и 1-задачу, нажмите-1");
         System.out.println("Что бы выбрать 1-уровень и 2-задачу, нажмите-2");
@@ -34,7 +34,7 @@ public class Main {
 
     private static void logic(BufferedReader reader) throws IOException {
         String line = reader.readLine();
-            switch (line) {
+        switch (line) {
             case "1" -> new First().FirstLevel(reader);
             case "2" -> new First().SecondLevel(reader);
             case "3" -> new First().ThirdLevel(reader);
@@ -43,6 +43,4 @@ public class Main {
             case "0" -> System.exit(0);
         }
     }
-
-
 }
